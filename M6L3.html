@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<h2>Finding HTML Elements By Tag Name</h2>
+	<p>HELLO WORD!</p>
+	<p>This Example Demonstrates The <b>getElementsByTagName</b> method.</p>
+	<p id="demo"></p>
+	<script>
+
+		var x = document.getElementsByTagName("p");
+		document.getElementById("demo").innerHTML=
+		'The text in first paragraph (index 0) is:'+ x[0].innerHTML;
+
+	</script>
+</body>
+</html>

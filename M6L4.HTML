@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+	<h2>Finding HTML Elements By Class Name </h2>
+
+	<p>HELLO WORD!</p>
+
+	<p Class="intro">The DOM Is Very Useful.</p>
+	<p class="intro">This Example demonstrates the <b>getElementById</b> method.</p>
+
+	<p id="demo"></p>
+
+	<script >
+		var x =document.querySelectorALL("p.intro");
+		document.getElementById("demo").innerHTML =
+		'The fisrt paragraph (indek 0) with class="intro":' + x[0].innerHTML;
+	</script>
+
+</body>
+</html>
